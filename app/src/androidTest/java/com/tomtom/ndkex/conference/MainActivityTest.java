@@ -9,13 +9,15 @@ import org.junit.Test;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
-    public MainActivityTest(Class<MainActivity> activityClass) {
-        super(activityClass);
+
+    public MainActivityTest() {
+        super(MainActivity.class);
     }
+
 
     @Test
     public void testShouldDisplayHelloWorldMessage(){
-        assertEquals(getActivity().message.getText().toString(), "Hello World");
+        assertEquals(getActivity().message.getText().toString(), "Hello World!");
     }
 
     @Test
