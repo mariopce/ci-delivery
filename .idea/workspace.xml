@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961ff04e-49d3-4b6d-8019-cdb8b8b6557c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-    </list>
+    <list default="true" id="961ff04e-49d3-4b6d-8019-cdb8b8b6557c" name="Default" comment="" />
     <ignored path="ci-delivery.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
