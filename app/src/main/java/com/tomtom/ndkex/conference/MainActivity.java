@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         message = (TextView) findViewById(R.id.text);
+        
     }
 }
