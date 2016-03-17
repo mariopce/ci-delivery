@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/mariopce/ci-delivery.png?label=ready&title=Ready)](https://waffle.io/mariopce/ci-delivery)
 Sample project for conference. 
 
 [![Build Status](https://travis-ci.org/mariopce/ci-delivery.svg?branch=master)](https://travis-ci.org/mariopce/ci-delivery)
