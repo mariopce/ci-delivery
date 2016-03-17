@@ -23,8 +23,6 @@ android:
     #min sdk emulator
     - sys-img-armeabi-v7a-android-17
 
-      licenses:
-       - 'android-sdk-license-.+'
 
 env:
    global:
