@@ -22,6 +22,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
     @Test
     public void testShouldDisplayMessage(){
+        getActivity();
         Espresso.onView(ViewMatchers.withId(R.id.text)).check(ViewAssertions.matches(ViewMatchers.withText("Hello World!")));
     }
 }
