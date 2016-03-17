@@ -9,6 +9,8 @@ buildscript {
 }
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
+apply plugin: 'jacoco'
+apply plugin: 'com.github.kt3k.coveralls'
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }
@@ -27,7 +29,10 @@ android {
         versionName "1.0"
     }
     buildTypes {
-        ext.betaDistributionGroupAliases="Testers"
+        debug {
+            testCoverageEnabled true
+            ext.betaDistributionGroupAliases="Testers"
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
